@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -18,16 +18,18 @@ h1 {
 
 section {
     display: flex;
+    margin-top: 80px;
 }
 
 .one {
-    width: 50%;
-    padding-left: 5%;
-
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .one img {
-    width: 60%;
+    width: 100%;
 }
 
 .p1 {
@@ -35,18 +37,26 @@ section {
 }
 
 .button {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
 
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px, 20px;
+    /* background-image: linear-gradient(orange, tomato);
+    padding: 10px, 30px;
     height: 50px;
     width: 100px;
     color: whitesmoke;
     font-weight: 700;
-    border-radius: 5px;
-    /* text-align: center; */
+    border-radius: 10px;
+    margin-left: 10px;
+     text-align: center; 
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
 }
 
@@ -61,4 +71,10 @@ section {
 .top-banner {
     background-image: url(developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.side-banner {
+    background-image: url(developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
