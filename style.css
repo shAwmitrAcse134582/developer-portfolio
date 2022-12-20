@@ -16,9 +16,9 @@ h1 {
     color: darkorange;
 }
 
-section {
+.flex {
     display: flex;
-    margin-top: 80px;
+    /* margin-top: 10px; */
 }
 
 .one {
@@ -77,4 +77,46 @@ section {
     background-image: url(developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.box-shadow {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(222, 222, 222);
+
+
+}
+
+
+.experiance {
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#mern {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, pink);
+    border-image-slice: 1;
+}
+
+.footer {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.foot {
+    text-align: center;
+    color: white;
 }
